@@ -1,0 +1,280 @@
+2025-11-21 12:56:10.785 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Starting HgqWebManagementApplication using Java 17.0.13 with PID 19600 (D:\javaweb-code\web-ai-project02-dept-test\hgq-web-management\target\classes started by 30137 in D:\javaweb-code\web-ai-project02-dept-test)
+2025-11-21 12:56:10.788 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 12:56:12.382 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 12:56:12.404 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 12:56:12.532 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1682 ms
+2025-11-21 12:56:14.131 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 12:56:14.164 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 12:56:14.179 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Started HgqWebManagementApplication in 4.017 seconds (process running for 5.274)
+2025-11-21 12:56:14.271 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-21 12:56:14.273 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-21 12:56:14.362 [http-nio-8080-exec-4] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 12:56:14.370 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-21 12:56:14.669 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e12777b
+2025-11-21 12:56:14.673 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-21 12:56:16.582 [http-nio-8080-exec-1] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 12:57:24.347 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 12:57:24.521 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 12:57:24.525 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-21 12:57:24.532 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-21 13:12:08.582 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Starting HgqWebManagementApplication using Java 17.0.13 with PID 6636 (D:\javaweb-code\web-ai-project02-dept-test\hgq-web-management\target\classes started by 30137 in D:\javaweb-code\web-ai-project02-dept-test)
+2025-11-21 13:12:08.584 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 13:12:09.559 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 13:12:09.574 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 13:12:09.648 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1023 ms
+2025-11-21 13:12:10.509 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 13:12:10.528 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 13:12:10.535 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Started HgqWebManagementApplication in 2.354 seconds (process running for 3.221)
+2025-11-21 13:12:19.614 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-21 13:12:19.616 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-21 13:12:19.719 [http-nio-8080-exec-2] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 13:12:19.724 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-21 13:12:20.040 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22d859a6
+2025-11-21 13:12:20.044 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-21 13:12:33.363 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 13:12:33.592 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 13:12:33.595 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-21 13:12:33.603 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-21 13:23:21.922 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Starting HgqWebManagementApplication using Java 17.0.13 with PID 4788 (D:\javaweb-code\web-ai-project02-dept-test\hgq-web-management\target\classes started by 30137 in D:\javaweb-code\web-ai-project02-dept-test)
+2025-11-21 13:23:21.925 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 13:23:23.014 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 13:23:23.029 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 13:23:23.115 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1138 ms
+2025-11-21 13:23:24.104 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 13:23:24.126 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 13:23:24.134 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Started HgqWebManagementApplication in 2.673 seconds (process running for 3.721)
+2025-11-21 13:23:34.775 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-21 13:23:34.779 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-21 13:23:52.676 [http-nio-8080-exec-3] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:23:52.917 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-21 13:23:53.256 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47133896
+2025-11-21 13:23:53.260 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-21 13:23:54.993 [http-nio-8080-exec-4] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:23:55.455 [http-nio-8080-exec-5] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:23:55.658 [http-nio-8080-exec-6] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:23:55.789 [http-nio-8080-exec-7] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:23:55.930 [http-nio-8080-exec-8] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:23:56.086 [http-nio-8080-exec-9] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:23:56.213 [http-nio-8080-exec-10] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:23:56.371 [http-nio-8080-exec-1] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:23:56.680 [http-nio-8080-exec-2] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:23:56.874 [http-nio-8080-exec-3] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:23:59.855 [http-nio-8080-exec-4] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=5, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:24:01.001 [http-nio-8080-exec-5] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=4, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:24:01.937 [http-nio-8080-exec-6] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=3, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:24:02.304 [http-nio-8080-exec-7] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=2, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:24:03.109 [http-nio-8080-exec-8] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 13:24:05.999 [http-nio-8080-exec-9] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=2, begin=null, end=null)
+2025-11-21 13:25:43.151 [http-nio-8080-exec-3] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 13:26:12.071 [http-nio-8080-exec-5] INFO  com.hgnuhgq.controller.UploadController - 上传文件:null
+2025-11-21 13:26:17.770 [http-nio-8080-exec-6] INFO  com.hgnuhgq.controller.UploadController - 上传文件:null
+2025-11-21 13:26:23.311 [http-nio-8080-exec-7] INFO  com.hgnuhgq.controller.EmpController - 新增员工：Emp(id=null, username=111, password=null, name=111, gender=2, phone=null, job=1, salary=null, image=, entryDate=null, createTime=null, updateTime=null, deptId=7, deptName=null, exprList=null)
+2025-11-21 13:26:23.412 [http-nio-8080-exec-8] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 13:29:48.318 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 13:29:48.554 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 13:29:48.559 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-21 13:29:48.566 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-21 13:30:16.792 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Starting HgqWebManagementApplication using Java 17.0.13 with PID 5576 (D:\javaweb-code\web-ai-project02-dept-test\hgq-web-management\target\classes started by 30137 in D:\javaweb-code\web-ai-project02-dept-test)
+2025-11-21 13:30:16.794 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 13:30:17.965 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 13:30:17.985 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 13:30:18.084 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1255 ms
+2025-11-21 13:30:19.207 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 13:30:19.228 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 13:30:19.242 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Started HgqWebManagementApplication in 2.828 seconds (process running for 3.854)
+2025-11-21 13:30:26.052 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-21 13:30:26.055 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-11-21 13:31:54.277 [http-nio-8080-exec-7] INFO  com.hgnuhgq.controller.EmpController - 删除员工：[51]
+2025-11-21 13:31:54.294 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-21 13:31:54.543 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@161b3ced
+2025-11-21 13:31:54.547 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-21 13:33:32.036 [http-nio-8080-exec-6] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 13:44:54.037 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 13:44:54.234 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 13:44:54.237 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-21 13:44:54.245 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-21 18:17:29.877 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Starting HgqWebManagementApplication using Java 17.0.13 with PID 20308 (D:\javaweb-code\web-ai-project02-dept-test\hgq-web-management\target\classes started by 30137 in D:\javaweb-code\web-ai-project02-dept-test)
+2025-11-21 18:17:29.879 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 18:17:30.967 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 18:17:30.982 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 18:17:31.063 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1140 ms
+2025-11-21 18:17:32.149 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 18:17:32.170 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 18:17:32.178 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Started HgqWebManagementApplication in 2.817 seconds (process running for 3.724)
+2025-11-21 18:18:36.843 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-21 18:18:36.845 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-11-21 18:18:36.937 [http-nio-8080-exec-1] INFO  com.hgnuhgq.controller.EmpController - 查询员工：50
+2025-11-21 18:18:36.982 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-21 18:18:37.308 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d4f07d0
+2025-11-21 18:18:37.312 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-21 18:18:52.218 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 18:18:52.486 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 18:18:52.489 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-21 18:18:52.495 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-21 18:18:57.772 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Starting HgqWebManagementApplication using Java 17.0.13 with PID 28684 (D:\javaweb-code\web-ai-project02-dept-test\hgq-web-management\target\classes started by 30137 in D:\javaweb-code\web-ai-project02-dept-test)
+2025-11-21 18:18:57.775 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 18:18:58.757 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 18:18:58.772 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 18:18:58.855 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1035 ms
+2025-11-21 18:18:59.781 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 18:18:59.808 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 18:18:59.819 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Started HgqWebManagementApplication in 2.472 seconds (process running for 3.926)
+2025-11-21 18:19:07.788 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-21 18:19:07.790 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-21 18:19:07.845 [http-nio-8080-exec-2] INFO  com.hgnuhgq.controller.EmpController - 查询员工：50
+2025-11-21 18:20:26.483 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-21 18:20:26.676 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@430b8121
+2025-11-21 18:20:26.677 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-21 18:20:56.357 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s680ms77µs600ns).
+2025-11-21 18:21:05.365 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 18:21:05.553 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 18:21:05.557 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-21 18:21:05.563 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-21 19:50:32.905 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Starting HgqWebManagementApplication using Java 17.0.13 with PID 38840 (D:\javaweb-code\web-ai-project02-dept-test\hgq-web-management\target\classes started by 30137 in D:\javaweb-code\web-ai-project02-dept-test)
+2025-11-21 19:50:32.907 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 19:50:33.998 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 19:50:34.013 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 19:50:34.103 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1156 ms
+2025-11-21 19:50:35.159 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 19:50:35.179 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 19:50:35.187 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Started HgqWebManagementApplication in 2.674 seconds (process running for 3.495)
+2025-11-21 19:50:41.321 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-21 19:50:41.324 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-21 19:50:41.432 [http-nio-8080-exec-1] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 19:50:41.439 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-21 19:50:41.752 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f7e287d
+2025-11-21 19:50:41.757 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-21 19:50:43.601 [http-nio-8080-exec-3] INFO  com.hgnuhgq.controller.EmpController - 查询员工：50
+2025-11-21 19:50:50.906 [http-nio-8080-exec-4] INFO  com.hgnuhgq.controller.EmpController - 查询员工：49
+2025-11-21 19:50:58.455 [http-nio-8080-exec-5] INFO  com.hgnuhgq.controller.UploadController - 上传文件:null
+2025-11-21 19:51:43.036 [http-nio-8080-exec-6] INFO  com.hgnuhgq.controller.EmpController - 查询员工：49
+2025-11-21 19:51:51.426 [http-nio-8080-exec-8] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-11-21 19:56:22.410 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 19:56:22.980 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 19:56:22.984 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-21 19:56:22.999 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-21 20:15:10.396 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Starting HgqWebManagementApplication using Java 17.0.13 with PID 37760 (D:\javaweb-code\web-ai-project02-dept-test\hgq-web-management\target\classes started by 30137 in D:\javaweb-code\web-ai-project02-dept-test)
+2025-11-21 20:15:10.400 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 20:15:11.431 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 20:15:11.445 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 20:15:11.532 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1094 ms
+2025-11-21 20:15:12.460 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 20:15:12.480 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 20:15:12.489 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Started HgqWebManagementApplication in 2.527 seconds (process running for 3.606)
+2025-11-21 20:15:25.290 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-21 20:15:25.293 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-11-21 20:15:25.392 [http-nio-8080-exec-1] INFO  com.hgnuhgq.controller.EmpController - 查询员工：50
+2025-11-21 20:15:25.442 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-21 20:15:25.767 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14aa4f07
+2025-11-21 20:15:25.770 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-21 20:15:27.322 [http-nio-8080-exec-2] INFO  com.hgnuhgq.controller.EmpController - 修改员工：Emp(id=50, username=wangw03, password=123456, name=王伟, gender=2, phone=15198765432, job=4, salary=120000, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2022-09-03-07-37-4177.jpg, entryDate=2020-09-01, createTime=2025-11-19T23:53:02, updateTime=2025-11-19T23:53:02, deptId=1, deptName=null, exprList=[EmpExpr(id=5, empId=null, begin=2016-07-10, end=2019-08-25, company=华为技术有限公司, job=算法工程师), EmpExpr(id=6, empId=null, begin=2019-09-10, end=2022-07-05, company=美团科技有限公司, job=资深算法工程师), EmpExpr(id=7, empId=null, begin=2022-08-01, end=2024-03-15, company=滴滴出行科技有限公司, job=算法专家)])
+2025-11-21 20:15:27.488 [http-nio-8080-exec-3] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 20:15:31.187 [http-nio-8080-exec-4] INFO  com.hgnuhgq.controller.EmpController - 查询员工：50
+2025-11-21 20:15:35.054 [http-nio-8080-exec-5] INFO  com.hgnuhgq.controller.EmpController - 修改员工：Emp(id=50, username=wangw03, password=123456, name=王伟, gender=2, phone=15198765432, job=3, salary=120000, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2022-09-03-07-37-4177.jpg, entryDate=2020-09-01, createTime=2025-11-19T23:53:02, updateTime=2025-11-21T20:15:27, deptId=1, deptName=null, exprList=[EmpExpr(id=8, empId=null, begin=2016-07-10, end=2019-08-25, company=华为技术有限公司, job=算法工程师), EmpExpr(id=9, empId=null, begin=2019-09-10, end=2022-07-05, company=美团科技有限公司, job=资深算法工程师), EmpExpr(id=10, empId=null, begin=2022-08-01, end=2024-03-15, company=滴滴出行科技有限公司, job=算法专家)])
+2025-11-21 20:15:35.089 [http-nio-8080-exec-6] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 20:15:39.220 [http-nio-8080-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-11-21 20:34:37.762 [http-nio-8080-exec-8] INFO  com.hgnuhgq.controller.EmpController - 查询员工：50
+2025-11-21 20:34:46.522 [http-nio-8080-exec-10] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:06:48.727 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 21:06:48.867 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 21:06:48.877 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-21 21:06:48.882 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-21 21:06:54.397 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Starting HgqWebManagementApplication using Java 17.0.13 with PID 39648 (D:\javaweb-code\web-ai-project02-dept-test\hgq-web-management\target\classes started by 30137 in D:\javaweb-code\web-ai-project02-dept-test)
+2025-11-21 21:06:54.399 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 21:06:55.400 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 21:06:55.417 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 21:06:55.522 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1087 ms
+2025-11-21 21:06:56.517 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 21:06:56.545 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 21:06:56.555 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Started HgqWebManagementApplication in 2.557 seconds (process running for 3.497)
+2025-11-21 21:07:03.704 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-21 21:07:03.706 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-21 21:07:03.794 [http-nio-8080-exec-1] INFO  com.hgnuhgq.controller.EmpController - 查询员工：50
+2025-11-21 21:07:03.836 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-21 21:07:04.157 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37f60c12
+2025-11-21 21:07:04.161 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-21 21:07:08.953 [http-nio-8080-exec-2] INFO  com.hgnuhgq.controller.EmpController - 修改员工：Emp(id=50, username=wangw03, password=123456, name=王伟, gender=2, phone=15198765432, job=3, salary=120000, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2022-09-03-07-37-4177.jpg, entryDate=2020-09-01, createTime=2025-11-19T23:53:02, updateTime=2025-11-21T20:15:35, deptId=1, deptName=null, exprList=[EmpExpr(id=11, empId=null, begin=2016-07-10, end=2019-08-25, company=华为技术有限公司, job=算法工程师), EmpExpr(id=12, empId=null, begin=2019-09-10, end=2022-07-05, company=美团科技有限公司, job=资深算法工程师), EmpExpr(id=13, empId=null, begin=2022-08-01, end=2024-03-15, company=滴滴出行科技有限公司, job=算法专家)])
+2025-11-21 21:07:09.094 [http-nio-8080-exec-3] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:07:23.505 [http-nio-8080-exec-4] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=2, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:07:24.360 [http-nio-8080-exec-5] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=3, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:07:24.874 [http-nio-8080-exec-6] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=4, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:07:25.453 [http-nio-8080-exec-7] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=5, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:07:26.274 [http-nio-8080-exec-8] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=6, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:07:26.818 [http-nio-8080-exec-9] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=7, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:07:27.620 [http-nio-8080-exec-10] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=8, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:07:32.178 [http-nio-8080-exec-1] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=5, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:07:34.759 [http-nio-8080-exec-2] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:07:38.845 [http-nio-8080-exec-4] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=1, begin=null, end=null)
+2025-11-21 21:08:34.530 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 21:08:34.749 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 21:08:34.752 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-21 21:08:34.765 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-21 21:10:28.605 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Starting HgqWebManagementApplication using Java 17.0.13 with PID 39792 (D:\javaweb-code\web-ai-project02-dept-test\hgq-web-management\target\classes started by 30137 in D:\javaweb-code\web-ai-project02-dept-test)
+2025-11-21 21:10:28.606 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 21:10:29.516 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 21:10:29.530 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 21:10:29.616 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 972 ms
+2025-11-21 21:10:30.742 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 21:10:30.763 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 21:10:30.770 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Started HgqWebManagementApplication in 2.532 seconds (process running for 3.347)
+2025-11-21 21:10:37.168 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-21 21:10:37.173 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-11-21 21:10:37.331 [http-nio-8080-exec-1] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:10:37.339 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-21 21:10:38.053 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ae39e83
+2025-11-21 21:10:38.056 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-21 21:10:40.295 [http-nio-8080-exec-3] INFO  com.hgnuhgq.controller.EmpController - 查询员工：1
+2025-11-21 21:10:48.219 [http-nio-8080-exec-4] INFO  com.hgnuhgq.controller.EmpController - 修改员工：Emp(id=1, username=wangw03, password=123456, name=lbw, gender=2, phone=15198765432, job=3, salary=120000, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2022-09-03-07-37-4177.jpg, entryDate=2020-09-01, createTime=2025-11-18T23:22:40, updateTime=2025-11-21T21:07:09, deptId=1, deptName=null, exprList=[])
+2025-11-21 21:10:48.296 [http-nio-8080-exec-5] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:10:50.401 [http-nio-8080-exec-6] INFO  com.hgnuhgq.controller.EmpController - 查询员工：2
+2025-11-21 21:10:53.693 [http-nio-8080-exec-7] INFO  com.hgnuhgq.controller.EmpController - 修改员工：Emp(id=2, username=wangw03, password=123456, name=王伟, gender=1, phone=15198765432, job=3, salary=120000, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2022-09-03-07-37-4177.jpg, entryDate=2020-09-01, createTime=2025-11-18T23:22:40, updateTime=2025-11-21T21:07:09, deptId=1, deptName=null, exprList=[])
+2025-11-21 21:10:53.726 [http-nio-8080-exec-8] INFO  com.hgnuhgq.controller.EmpController - 分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-11-21 21:11:05.194 [http-nio-8080-exec-10] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-11-21 21:13:24.697 [http-nio-8080-exec-2] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-11-21 21:13:32.542 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-11-21 21:28:18.228 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 21:28:18.454 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 21:28:18.458 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-21 21:28:18.466 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-21 21:31:25.862 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Starting HgqWebManagementApplication using Java 17.0.13 with PID 13020 (D:\javaweb-code\web-ai-project02-dept-test\hgq-web-management\target\classes started by 30137 in D:\javaweb-code\web-ai-project02-dept-test)
+2025-11-21 21:31:25.866 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 21:31:27.180 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 21:31:27.199 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 21:31:27.300 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1387 ms
+2025-11-21 21:31:29.116 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 21:31:29.164 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 21:31:29.183 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Started HgqWebManagementApplication in 3.944 seconds (process running for 5.525)
+2025-11-21 21:31:33.621 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-21 21:31:33.623 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-11-21 21:31:33.666 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-11-21 21:31:53.694 [http-nio-8080-exec-2] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-11-21 21:32:00.126 [http-nio-8080-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-11-21 21:32:27.782 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 21:32:27.937 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 21:35:10.425 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Starting HgqWebManagementApplication using Java 17.0.13 with PID 11008 (D:\javaweb-code\web-ai-project02-dept-test\hgq-web-management\target\classes started by 30137 in D:\javaweb-code\web-ai-project02-dept-test)
+2025-11-21 21:35:10.426 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 21:35:11.345 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 21:35:11.357 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 21:35:11.424 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 961 ms
+2025-11-21 21:35:13.032 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 21:35:13.075 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 21:35:13.093 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Started HgqWebManagementApplication in 3.03 seconds (process running for 3.963)
+2025-11-21 21:35:15.733 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-21 21:35:15.735 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-11-21 21:35:15.773 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-11-21 21:35:21.943 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 21:35:22.185 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 21:35:24.813 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Starting HgqWebManagementApplication using Java 17.0.13 with PID 27388 (D:\javaweb-code\web-ai-project02-dept-test\hgq-web-management\target\classes started by 30137 in D:\javaweb-code\web-ai-project02-dept-test)
+2025-11-21 21:35:24.815 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 21:35:25.889 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 21:35:25.921 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 21:35:26.032 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1180 ms
+2025-11-21 21:35:27.076 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 21:35:27.103 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 21:35:27.111 [main] INFO  com.hgnuhgq.HgqWebManagementApplication - Started HgqWebManagementApplication in 2.765 seconds (process running for 3.942)
+2025-11-21 21:35:41.123 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-21 21:35:41.125 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-21 21:35:41.165 [http-nio-8080-exec-2] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-11-21 21:36:33.205 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-11-21 21:37:33.281 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 21:37:33.512 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
